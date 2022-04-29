@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_2022">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android_2022">
+        <activity
+            android:name=".zhouqian.MainActivity23"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".zhouqian.MainActivity16_2"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".zhouqian.MainActivity16"
+            android:exported="true"></activity>
+        <activity
+            android:name=".zhouqian.MainActivity24"
+            android:exported="true"></activity>
+        <activity
+            android:name=".chapter03.MainActivity22"
+            android:exported="false" />
+        <activity
+            android:name=".zhouqian.MainActivity20"
+            android:exported="true" />
+        <activity
+            android:name=".chapter02.MainActivity19"
+            android:exported="true" />
+        <activity
+            android:name=".chapter02.MainActivity18"
+            android:exported="true" />
+        <activity
+            android:name=".chapter02.MainActivity17"
+            android:exported="true" />
+        <activity
+            android:name=".chapter02.MainActivity15"
+            android:exported="false" />
+        <activity
+            android:name=".chapter02.MainActivity14"
+            android:exported="false" />
+        <activity
+            android:name=".chapter02.MainActivity13"
+            android:exported="true" />
+        <activity
+            android:name=".chapter02.MainActivity12"
+            android:exported="true" />
+        <activity
+            android:name=".chapter02.MainActivity11_2"
+            android:exported="false" />
+        <activity
+            android:name=".chapter02.MainActivity11_1"
+            android:exported="true" />
+        <activity
+            android:name=".chapter02.MainActivity10_2"
+            android:exported="false" />
+        <activity
+            android:name=".chapter02.MainActivity10_1"
+            android:exported="true" />
+        <activity
+            android:name=".chapter02.MainActivity09_2"
+            android:exported="false" />
+        <activity
+            android:name=".chapter02.MainActivity09_1"
+            android:exported="true" />
+        <activity
+            android:name=".chapter01.MainActivity08"
+            android:exported="true" />
+        <activity
+            android:name=".chapter01.MainActivity07"
+            android:exported="true" />
+        <activity
+            android:name=".chapter01.MainActivity06"
+            android:exported="true" />
+        <activity
+            android:name=".chapter01.MainActivity05"
+            android:exported="true" />
+        <activity
+            android:name=".chapter01.MainActivity04"
+            android:exported="true" />
+        <activity
+            android:name=".chapter01.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".chapter01.MainActivity03"
+            android:exported="true" />
+        <activity
+            android:name=".chapter01.MainActivity02"
+            android:exported="true" />
+        <activity
+            android:name=".chapter01.MainActivity01"
+            android:exported="true" />
+    </application>
+
+</manifest>
