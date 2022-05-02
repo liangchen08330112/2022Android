@@ -32,8 +32,8 @@ public class MainActivity23 extends AppCompatActivity implements View.OnClickLis
         //新建一个helper对象
         helper = new MyHelper(this);
         //隐藏标题栏
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.hide();
         //关联资源
         editText_name = findViewById(R.id.editText_name);
         editText_phone = findViewById(R.id.editText_phone);

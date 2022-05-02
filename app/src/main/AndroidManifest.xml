@@ -11,6 +11,24 @@
         android:theme="@style/Theme.Android_2022">
         <activity
             android:name=".zhouqian.MainActivity23"
+            android:label="通讯录"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".zhouqian.MainActivity16_2"
+            android:label="QQ登录"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".zhouqian.MainActivity16"
+            android:label="QQ登录"
+            android:exported="true"></activity>
+        <activity
+            android:name=".zhouqian.MainActivity24"
+            android:exported="true"></activity>
+        <activity
+            android:name=".chapter03.MainActivity22"
+            android:label="用户信息存储系统"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,86 +37,99 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".zhouqian.MainActivity16_2"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".zhouqian.MainActivity16"
-            android:exported="true"></activity>
-        <activity
-            android:name=".zhouqian.MainActivity24"
-            android:exported="true"></activity>
-        <activity
-            android:name=".chapter03.MainActivity22"
-            android:exported="false" />
-        <activity
             android:name=".zhouqian.MainActivity20"
+            android:label="多多买菜"
             android:exported="true" />
         <activity
             android:name=".chapter02.MainActivity19"
+            android:label="美食爱好调查"
             android:exported="true" />
         <activity
             android:name=".chapter02.MainActivity18"
+            android:label="问卷调查"
             android:exported="true" />
         <activity
             android:name=".chapter02.MainActivity17"
+            android:label="Activity生命周期检测"
             android:exported="true" />
         <activity
             android:name=".chapter02.MainActivity15"
+            android:label="物理按键识别"
             android:exported="false" />
         <activity
             android:name=".chapter02.MainActivity14"
+            android:label="联系人管理系统"
             android:exported="false" />
         <activity
             android:name=".chapter02.MainActivity13"
+            android:label="多功能中心"
             android:exported="true" />
         <activity
             android:name=".chapter02.MainActivity12"
+            android:label="滑动小球"
             android:exported="true" />
         <activity
             android:name=".chapter02.MainActivity11_2"
+            android:parentActivityName=".chapter02.MainActivity11_1"
+            android:label="充值结果"
             android:exported="false" />
         <activity
             android:name=".chapter02.MainActivity11_1"
+            android:label="充值系统"
             android:exported="true" />
         <activity
             android:name=".chapter02.MainActivity10_2"
+            android:parentActivityName=".chapter02.MainActivity10_1"
+            android:label="学生信息"
             android:exported="false" />
         <activity
             android:name=".chapter02.MainActivity10_1"
+            android:label="学生信息收集"
             android:exported="true" />
         <activity
             android:name=".chapter02.MainActivity09_2"
+            android:parentActivityName=".chapter02.MainActivity09_1"
+            android:label="登录"
             android:exported="false" />
         <activity
             android:name=".chapter02.MainActivity09_1"
+            android:label="简易登录系统"
             android:exported="true" />
         <activity
             android:name=".chapter01.MainActivity08"
+            android:label="密码检测"
             android:exported="true" />
         <activity
             android:name=".chapter01.MainActivity07"
+            android:label="动物图片查看器"
             android:exported="true" />
         <activity
             android:name=".chapter01.MainActivity06"
+            android:label="动物图片查看器"
             android:exported="true" />
         <activity
             android:name=".chapter01.MainActivity05"
+            android:label="动物图片查看器"
             android:exported="true" />
         <activity
             android:name=".chapter01.MainActivity04"
+            android:label="按钮计数器"
             android:exported="true" />
         <activity
             android:name=".chapter01.MainActivity"
+            android:label="单击事件监听基础"
             android:exported="true" />
         <activity
             android:name=".chapter01.MainActivity03"
+            android:label="猜鸡蛋"
             android:exported="true" />
         <activity
             android:name=".chapter01.MainActivity02"
+            android:label="猜拳游戏"
             android:exported="true" />
         <activity
             android:name=".chapter01.MainActivity01"
+            android:label="猜拳游戏"
             android:exported="true" />
     </application>
 
