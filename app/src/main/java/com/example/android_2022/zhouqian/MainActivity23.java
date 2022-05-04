@@ -62,7 +62,7 @@ public class MainActivity23 extends AppCompatActivity implements View.OnClickLis
                 //将输入内容转化为字符串
                 name = editText_name.getText().toString().trim();
                 phone = editText_phone.getText().toString().trim();
-                //获取可写入的数据库
+                //获取可写入的数据库实例
                 database = helper.getWritableDatabase();
                 //新建values对象
                 values = new ContentValues();
@@ -140,7 +140,17 @@ public class MainActivity23 extends AppCompatActivity implements View.OnClickLis
                 //如果未获取数据
                 if(cursor.getCount()==0){
                     textView_show.setText("");
-                    Toast.makeText(this,"暂无数据",Toast.LENGTH_SHORT).show();
+                    AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
+                    builder1.setIcon(R.drawable.ic_jinggao).setTitle("提示").setMessage("暂无数据！");
+                    builder1.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.dismiss();
+                        }
+                    });
+                    builder1.setCancelable(true);
+                    AlertDialog dialog1 = builder1.create();
+                    dialog1.show();
                 }else{ //获取到数据后从第一个数据开始显示文本
                     cursor.moveToFirst();
                     textView_show.setText("姓名："+cursor.getString(1)+"，电话："+cursor.getString(2));
@@ -148,6 +158,7 @@ public class MainActivity23 extends AppCompatActivity implements View.OnClickLis
                 while (cursor.moveToNext()) {
                     textView_show.append("\n"+"姓名："+cursor.getString(1)+"，电话："+cursor.getString(2));
                 }
+                Toast.makeText(this,"信息展示完毕",Toast.LENGTH_SHORT).show();
                 //关闭集游标
                 cursor.close();
                 //关闭数据库

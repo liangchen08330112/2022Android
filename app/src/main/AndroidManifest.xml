@@ -13,6 +13,11 @@
             android:name=".zhouqian.MainActivity23"
             android:label="通讯录"
             android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".zhouqian.MainActivity16_2"
@@ -30,11 +35,6 @@
             android:name=".chapter03.MainActivity22"
             android:label="用户信息存储系统"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".zhouqian.MainActivity20"
