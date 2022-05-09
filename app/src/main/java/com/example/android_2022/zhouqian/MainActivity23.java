@@ -19,6 +19,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.android_2022.R;
 
 public class MainActivity23 extends AppCompatActivity implements View.OnClickListener {
+    /**
+     * 程序：利用SQLite实现通讯录
+     */
     //运用内部类MyHelper定义helper
     MyHelper helper;
     //初始化控件

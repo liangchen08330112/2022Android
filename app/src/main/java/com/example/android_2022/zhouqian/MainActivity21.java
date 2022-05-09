@@ -2,12 +2,14 @@ package com.example.android_2022.zhouqian;
 
 import android.os.Bundle;
 import android.util.Log;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.android_2022.R;
 
 public class MainActivity21 extends AppCompatActivity {
+    /**
+     * 程序：Activity生命周期
+     * @param savedInstanceState
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

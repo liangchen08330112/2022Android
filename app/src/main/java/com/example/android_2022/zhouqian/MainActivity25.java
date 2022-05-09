@@ -1,17 +1,17 @@
 package com.example.android_2022.zhouqian;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import com.example.android_2022.R;
 
 public class MainActivity25 extends AppCompatActivity {
-
+    /**
+     * 程序：发送求救广播
+     */
     private Button button;
     private MyReceiver receiver;
 

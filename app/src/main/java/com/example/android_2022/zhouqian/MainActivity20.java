@@ -7,12 +7,13 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.android_2022.R;
 
 public class MainActivity20 extends AppCompatActivity {
+    /**
+     * 程序：利用ListView和BaseAdapter实现购物商城
+     */
     //定义三个数组：名称、价格、图片
     private String[] titles ={"西红柿","酸菜","地瓜","苹果","草莓","福山张格庄大樱桃","济阳黄瓜","莱阳梨"};
     private String[] prices ={"￥5.50元/斤","￥2.80元/斤","￥3.00元/斤","￥2.50元/斤","￥25.00元/斤","￥50.00元/斤","￥4.80元/斤","￥5.00元/斤"};

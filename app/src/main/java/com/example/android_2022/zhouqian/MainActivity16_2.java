@@ -7,16 +7,16 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.android_2022.R;
-
 import java.util.Map;
 
 public class MainActivity16_2 extends AppCompatActivity {
+    /**
+     * 模仿QQ登录界面，并利用SharedPreferences存储保存用户信息
+     */
     private EditText editText_number, editText_password;
     private ImageView button_login;
     @Override

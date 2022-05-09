@@ -17,6 +17,9 @@ import com.example.android_2022.R;
 import java.util.Map;
 
 public class MainActivity16 extends AppCompatActivity {
+    /**
+     * 模仿QQ登录界面，并利用File文件存储保存用户信息
+     */
     private EditText editText_number, editText_password;
     private ImageView button_login;
     @Override
