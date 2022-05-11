@@ -11,22 +11,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_2022">
+        <receiver
+            android:name=".zhouqian.MyOrderedReceiver3"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".zhouqian.MyOrderedReceiver2"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".zhouqian.MyOrderedReceiver1"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity
-            android:name=".zhouqian.MainActivity25"
-            android:label="发送求救广播"
-            android:exported="true" >
+            android:name=".zhouqian.MainActivity26"
+            android:exported="true"
+            android:label="发送有序广播">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".zhouqian.MainActivity25"
+            android:exported="true"
+            android:label="发送求救广播" />
 
         <receiver
             android:name=".zhouqian.MyReceiver"
             android:enabled="true"
-            android:exported="true" >
-        </receiver>
+            android:exported="true" />
 
         <activity
             android:name=".zhouqian.MainActivity23"
@@ -129,8 +145,7 @@
         <activity
             android:name=".chapter01.MainActivity"
             android:exported="true"
-            android:label="单击事件监听基础">
-        </activity>
+            android:label="单击事件监听基础" />
         <activity
             android:name=".chapter01.MainActivity03"
             android:exported="true"
