@@ -11,6 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_2022">
+        <service
+            android:name=".zhouqian.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".zhouqian.MainActivity27"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <receiver
             android:name=".zhouqian.MyOrderedReceiver3"
             android:enabled="true"
@@ -28,11 +43,6 @@
             android:name=".zhouqian.MainActivity26"
             android:exported="true"
             android:label="发送有序广播">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".zhouqian.MainActivity25"
