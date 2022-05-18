@@ -11,48 +11,65 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_2022">
-        <service
-            android:name=".zhouqian.MyService"
-            android:enabled="true"
-            android:exported="true" />
-
         <activity
-            android:name=".zhouqian.MainActivity27"
-            android:exported="true" >
+            android:name=".zhouqian.MainActivity28"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name=".zhouqian.MyService2"
+            android:enabled="true"
+            android:exported="true">
+
+        </service>
+
+        <activity
+            android:name=".zhouqian.MainActivity27"
+            android:exported="true">
+        </activity>
+
+        <service
+            android:name=".zhouqian.MyService"
+            android:enabled="true"
+            android:exported="false" />
+
 
         <receiver
             android:name=".zhouqian.MyOrderedReceiver3"
-            android:enabled="true"
-            android:exported="true" />
+            android:enabled="false"
+            android:exported="false" />
+
         <receiver
             android:name=".zhouqian.MyOrderedReceiver2"
-            android:enabled="true"
-            android:exported="true" />
+            android:enabled="false"
+            android:exported="false" />
+
         <receiver
             android:name=".zhouqian.MyOrderedReceiver1"
-            android:enabled="true"
-            android:exported="true" />
+            android:enabled="false"
+            android:exported="false" />
+
 
         <activity
             android:name=".zhouqian.MainActivity26"
             android:exported="true"
-            android:label="发送有序广播">
-        </activity>
+            android:label="发送有序广播" />
+
         <activity
             android:name=".zhouqian.MainActivity25"
-            android:exported="true"
+            android:exported="false"
             android:label="发送求救广播" />
+        <!--在运行前记得改为true-->
 
         <receiver
             android:name=".zhouqian.MyReceiver"
-            android:enabled="true"
-            android:exported="true" />
+            android:enabled="false"
+            android:exported="false" />
+        <!--在运行前记得改为true-->
 
         <activity
             android:name=".zhouqian.MainActivity23"
