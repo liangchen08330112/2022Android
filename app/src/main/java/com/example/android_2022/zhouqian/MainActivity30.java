@@ -39,6 +39,7 @@ public class MainActivity30 extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         Toast.makeText(this,"按钮1已被点击",Toast.LENGTH_SHORT).show();
     }
+    //该方法请移步activity_main30.xml文件。
     public void onclick(View view){
         Toast.makeText(this,"按钮2被点击",Toast.LENGTH_SHORT).show();
     }
