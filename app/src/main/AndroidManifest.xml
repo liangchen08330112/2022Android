@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_2022">
         <activity
+            android:name=".chapter04.MainActivity32"
+            android:exported="false" />
+        <activity
+            android:name=".chapter04.MainActivity31"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".zhouqian.MainActivity30"
             android:exported="false" />
         <activity
